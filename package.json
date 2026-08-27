@@ -1,0 +1,17 @@
+{
+  "name": "chronos-watch",
+  "version": "1.0.0",
+  "description": "Luxury Digital Sports Watch Website",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
