@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHRONOS - Luxury Digital Sports Watch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">CHRONOS</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Scroll Animation -->
+    <section id="home" class="hero">
+        <div class="hero-scroll-container">
+            <div class="hero-frame" data-frame="0">
+                <div class="hero-content">
+                    <h1 class="hero-title">Precision Meets <span class="gradient-text">Luxury</span></h1>
+                    <p class="hero-subtitle">The ultimate digital sports watch for those who demand excellence</p>
+                    <a href="#products" class="btn btn-primary">Discover More</a>
+                </div>
+                <div class="watch-container">
+                    <div class="watch watch-base">
+                        <div class="watch-face">
+                            <div class="watch-display">
+                                <div class="display-time">10:42</div>
+                                <div class="display-date">MON 15</div>
+                                <div class="display-metrics">
+                                    <span class="metric"><i class="icon-heart"></i> 72</span>
+                                    <span class="metric"><i class="icon-steps"></i> 8,432</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="watch-bezel"></div>
+                        <div class="watch-case"></div>
+                        <div class="watch-band watch-band-top"></div>
+                        <div class="watch-band watch-band-bottom"></div>
+                        <div class="watch-crown"></div>
+                        <div class="watch-buttons">
+                            <div class="watch-btn watch-btn-1"></div>
+                            <div class="watch-btn watch-btn-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-frame" data-frame="1">
+                <div class="hero-content hero-content-right">
+                    <h2 class="frame-title">Advanced <span class="gradient-text">GPS Tracking</span></h2>
+                    <p class="frame-description">Navigate with precision using our multi-satellite GPS system</p>
+                </div>
+                <div class="watch-container watch-rotated">
+                    <div class="watch watch-gps">
+                        <div class="watch-face">
+                            <div class="watch-display gps-display">
+                                <div class="gps-map"></div>
+                                <div class="gps-stats">
+                                    <span>5.2 KM</span>
+                                    <span>PACE 4:32</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="watch-bezel"></div>
+                        <div class="watch-case"></div>
+                        <div class="watch-band watch-band-top"></div>
+                        <div class="watch-band watch-band-bottom"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-frame" data-frame="2">
+                <div class="hero-content hero-content-left">
+                    <h2 class="frame-title">Heart Rate <span class="gradient-text">Monitoring</span></h2>
+                    <p class="frame-description">Real-time biometric tracking for optimal performance</p>
+                </div>
+                <div class="watch-container watch-rotated-2">
+                    <div class="watch watch-hr">
+                        <div class="watch-face">
+                            <div class="watch-display hr-display">
+                                <div class="hr-graph">
+                                    <svg viewBox="0 0 200 100" class="hr-wave">
+                                        <path d="M0,50 Q20,30 40,50 T80,50 T120,50 T160,50 T200,50" class="hr-line"/>
+                                    </svg>
+                                </div>
+                                <div class="hr-value">72 BPM</div>
+                            </div>
+                        </div>
+                        <div class="watch-bezel"></div>
+                        <div class="watch-case"></div>
+                        <div class="watch-band watch-band-top"></div>
+                        <div class="watch-band watch-band-bottom"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-frame" data-frame="3">
+                <div class="hero-content hero-content-center">
+                    <h2 class="frame-title">Water Resistant <span class="gradient-text">50 Meters</span></h2>
+                    <p class="frame-description">Built for extreme conditions and underwater adventures</p>
+                </div>
+                <div class="watch-container watch-floating">
+                    <div class="watch watch-water">
+                        <div class="watch-face">
+                            <div class="watch-display water-display">
+                                <div class="water-icon">💧</div>
+                                <div class="water-depth">50M</div>
+                            </div>
+                        </div>
+                        <div class="watch-bezel"></div>
+                        <div class="watch-case"></div>
+                        <div class="watch-band watch-band-top"></div>
+                        <div class="watch-band watch-band-bottom"></div>
+                        <div class="water-bubbles">
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                            <div class="bubble"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll to explore</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Engineered for Excellence</h2>
+                <p class="section-subtitle">Every detail crafted for peak performance</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Precision Sensors</h3>
+                    <p>Advanced biometric sensors for accurate health monitoring</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔋</div>
+                    <h3>7-Day Battery</h3>
+                    <p>Extended battery life for uninterrupted tracking</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💎</div>
+                    <h3>Sapphire Crystal</h3>
+                    <p>Scratch-resistant display for lasting clarity</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Multi-Sport Modes</h3>
+                    <p>Over 100 sport profiles for every activity</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Smart Connectivity</h3>
+                    <p>Seamless integration with your devices</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Professional Grade</h3>
+                    <p>Trusted by athletes worldwide</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Collection</h2>
+                <p class="section-subtitle">Find your perfect timepiece</p>
+            </div>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Have questions? We're here to help</p>
+            </div>
+            <div class="contact-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>Email</h4>
+                        <p>hello@chronos.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Phone</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Address</h4>
+                        <p>123 Innovation Drive<br>Tech City, TC 12345</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">CHRONOS</a>
+                    <p>Redefining luxury in digital sports watches</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">FB</a>
+                        <a href="#" aria-label="Twitter">TW</a>
+                        <a href="#" aria-label="Instagram">IG</a>
+                        <a href="#" aria-label="LinkedIn">LI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CHRONOS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
